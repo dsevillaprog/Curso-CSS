@@ -1,0 +1,164 @@
+/* Hoja de estilos externa  creada con: html_build.sh 
+
+   Author: DShtml
+*/
+/* Estilo body */
+html,
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: #ddf4fc;
+}
+
+/* Estilo header*/
+header {
+    background-image: url(../../img/logo_dron.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: solid red 1px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: auto;
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    background-color: #003580;
+    border: solid rgb(221, 17, 224) 1px;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li a:link {
+    color: #c9caf6bd;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+nav ul li a:active {
+    color: #8b4ac4;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #004aad;
+    font-weight: bold;
+    background-color: #b2b3f6bd;
+}
+
+
+/* Estilo h1*/
+h1 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/*
+------------------------------------- Estilo nav Footer
+*/
+/* Estilo nav */
+
+footer {
+    background-color: #004bad76;
+    border: solid rgb(65, 240, 12) 1px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+    position: fixed;
+    bottom: 0;
+}
+
+footer nav {
+    background-color: #003580;
+    border: solid rgb(221, 17, 224) 1px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a:link {
+    color: #c9caf6bd;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+footer a:active {
+    color: #8b4ac4;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #004aad;
+    font-weight: bold;
+    background-color: #b2b3f6bd;
+}
+
+table {
+    width: 100%;
+    background-color: #73b7d7dd;
+}
+
+thead {
+
+    font-weight: bold;
+
+}
+
+tfoot {
+
+    background-color: #3b6296dd;
+
+}
+
+.a-inicio a:hover {
+    color: #056ffa;
+    font-weight: bold;
+    background-color: #ededffbd;
+    text-shadow: #45caff 1px 1px 1px;
+}
+
+.copyrigth {
+    color: #c3c9e3;
+    background-color: #011733d6;
+    padding: 10px 0px 6px 0px;
+    /* width: 100%; */
+}
+
+.a-drones {
+    width: 100%;
+}
+
+/*
+------------------------------------- Estilo nav Footer

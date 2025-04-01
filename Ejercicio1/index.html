@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset=”UTF-8”>
+		<meta name=”author” content="DSevillaProg">
+		<title>Página de Inicio del Curso de CSS</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            /* En style usar comentarios de css */
+            /* Estilos generales de la web*/
+            html, body {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: rgb(188, 201, 212);
+
+            }
+
+            /* Estilos del header*/
+            header{
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 20px;
+            }
+            /* Estilo de párrafo class=subtitulo */
+            .subtitulo{
+                font-size: 18px;
+                color: #ddd;
+
+            }
+            nav{
+                background-color: #4444;
+                text-align: center;
+                color: white;
+                padding: 10px;
+
+            }
+            /* Aplicar estilo a ul dentro de nav*/
+            nav ul{
+                list-style: none;
+                padding: 0;
+
+
+            }
+            /* Aplicar estilo a li ul dentro de ul y dentro de nav*/
+            nav ul li{
+                display: inline;
+                margin: 0 15px;
+                padding: 0;
+            }
+            /* Aplicar estilo a: a dentro de li dentro de ul y dentro de nav*/
+            nav ul li a{
+                color:white;
+                text-decoration: none;
+                font-size: 18px;
+            }
+            /* Aplicar estilo a: a dentro de li dentro de ul y dentro de nav al pasar el ratón por encima */
+            nav ul li a:hover{
+                color:yellow; 
+            }
+            /* Aplicar estilo a class=contenido */
+            .contenido{
+                width: 60%;
+                margin: 2%;
+                background-color: rgb(236, 230, 230);
+                padding: 2%;
+                box-shadow: 0 0 10px rgba(0,0,0.1);
+                float: left;
+            }
+            .destacado{
+                background-color: yellow;
+                /* Grosor de fuente*/
+                font-weight: bold;
+                padding: 10px;
+            }
+            aside{
+                width: 25%;
+                /* Elemento flotante a la derecha*/
+                float: right;
+                background-color: #ddd;
+                padding: 2%;
+                margin-top: 2%;
+                margin-right: 2%;
+                box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+            }
+            footer{
+                background-color: #222;
+                color: white;
+                text-align: center;
+                margin-top: 10px;
+                float: none;
+                width: 100%;
+                overflow: hidden;
+            }
+        </style>
+	</head>
+	<body>
+		<!-- Comentario_body -->
+         <header>
+            <h1>Bienvenido a mi web</h1>
+            <p class="subtitulo">Aprendiendo html y ccs</p>
+
+         </header>
+         <nav>
+            <ul>
+                <li><a href="index.html">INICIO</a> </li>
+                <li><a href="fotos.html">FOTOS</a> </li>
+                <li><a href="historia.html">HISTORIA</a> </li>
+                <li><a href="contacto.html">CONTACTO</a> </li>
+
+
+            </ul>
+
+         </nav>
+         <section class="contenido">
+            <h2>Sobre nosotros</h2>
+            <p class="destacado">Somos una empresa dedicada al desarroyo web</p>
+            <p>Ofrecemos soluciones modernas</p>
+
+         </section>
+         <aside>
+            <h3>NOTICIAS RECIENTES</h3>
+            <p>Css es una herramienta potente</p>
+
+         </aside>
+         <footer>
+            <p>&copy; 2025 Todos los derechos reservados</p>
+
+         </footer>
+
+	</body>
+</html>

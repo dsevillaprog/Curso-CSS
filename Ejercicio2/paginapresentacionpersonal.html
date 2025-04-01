@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset=”UTF-8”>
+    <title>Página de Presentación</title>
+    <meta name=”author” content="DSevillaProg">
+    <!-- Comentario_de_descripción_del_programa -->
+    <!-- <link rel="stylesheet" type="text/css" href="/css/mystyle.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        /* En style usar comentarios de css */
+        /* Estilos generales de la web*/
+        html {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(31, 12, 45);
+        }
+
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(35, 14, 46);
+            background-image: url("../../test/img/music_2.jpg");
+        }
+
+        /* Estilos del header*/
+        header {
+            background-color: #2b0d3f;
+            text-shadow: #9a7cbdb3;
+            color: rgba(72, 42, 102, 0.744);
+            text-align: center;
+            padding: 25px;
+        }
+
+        h1 {
+            text-align: center;
+            text-shadow: rgba(72, 42, 102, 0.744);
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+            color: rgb(195, 182, 203);
+            margin: 0;
+            padding: 0;
+        }
+
+        h3 {
+            text-align: left;
+            color: rgb(36, 17, 46);
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilo de párrafo class=nombre */
+        #nombre {
+            font-size: 35px;
+            text-align: center;
+            color: #aeacaf;
+            padding: 25px;
+        }
+
+        /* Estilo de párrafo class=sobremi */
+        .sobremi {
+            height: 50px;
+            font-size: 18px;
+            color: #1d1753;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+
+        }
+
+        .mis_proyectos p h2 {
+            text-align: left;
+            font-size: 15px;
+            font-family: 'Courier New', Courier, monospace;
+            width: 30%;
+            color: #aeacaf;
+            text-shadow: rgba(72, 42, 102, 0.744);
+            display: flex;
+            margin: 0px 10px 0px 5px;
+            padding: 1.5%;
+            border-radius: 10px;
+            border-color: #252128;
+
+        }
+
+        p {
+            text-align: left;
+            margin: 5px 3px 10px 20px;
+            padding: 0;
+            color: #aeacaf;
+            text-shadow: rgba(72, 42, 102, 0.744);
+
+        }
+
+        .proyectos {
+            text-align: left;
+            display: flex;
+            text-shadow: #aeacaf;
+            color: rgb(175, 180, 190);
+            margin: 0px 10px 0px 5px;
+            padding: 1.5%;
+            border-radius: 10px;
+        }
+
+        /* Aplicar estilo a class=contenido */
+        .contenido {
+            width: 100%;
+            margin: 0;
+            background-color: rgb(187, 187, 187);
+            padding: 2%;
+            box-shadow: 0 0 10px rgba(0, 0, 0.1);
+            text-align: center;
+            float: left;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        aside {
+            width: 15%;
+            border-radius: 10px;
+            /* Elemento flotante a la derecha*/
+            float: right;
+            background-color: #c9b0d3;
+            color: #2b0d3f;
+            padding: 2%;
+            margin-top: 2%;
+            margin-right: 2%;
+            box-shadow: 2px 2px 5px rgba(110, 96, 114, 0.706);
+        }
+
+        .pasatiempos ul li p {
+            color: #141314;
+            text-align: left;
+            margin: 0;
+            margin-top: 1%;
+            padding: 0;
+            box-shadow: 2px 2px 5px rgba(103, 99, 105, 0.2);
+        }
+
+        footer {
+            background-color: #222;
+            color: rgb(69, 67, 76);
+            text-align: center;
+            border-radius: 10px;
+            padding: 0;
+            margin-top: 10px;
+            float: none;
+            width: 100%;
+            height: 20%;
+            overflow: hidden;
+        }
+
+        .logos {
+
+            width: 100px;
+            height: 50px;
+            background-image: url(../Ejercicio4/img/gif/git_circl.png);
+        }
+
+        .logos:hover {
+            background-image: url(../Ejercicio4/img/gif/git_circl.gif);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Comentario_body -->
+    <header>
+        <h1>Mi Página de Presentación</h1>
+        <p id="nombre">DShtml</p>
+
+    </header>
+    <div class="contenido">
+        <h2>Sobre mi:</h2>
+        <p class="sobremi">Me gusta la programación en general, sé programar en bash, C++, algo de Java y estoy
+            aprendiendo HTML y CSS</p>
+    </div>
+    <div id="mis_proyectos">
+        <h2 class="proyectos">Proyectos</h2>
+        <p></p>
+        <p>Buscadores_web.sh</p>
+        <p>Alarma_GSM.ino</p>
+        <p>Autotube.sh</p>
+        <p>Roli-sounds.sh</p>
+        <p>html_build.sh</p>
+        <p>img_convert.sh</p>
+        <p>Buscadores_web.html</p>
+    </div>
+    <div class="pasatiempos">
+        <aside>
+            <h3>PASATIEMPOS</h3><br>
+            <ul>
+                <li>
+                    <p>Programación</p>
+                </li>
+                <li>
+                    <p>Arduino</p>
+                </li>
+                <li>
+                    <p>Drones FPV</p>
+                </li>
+                <li>
+                    <p>Electrónica</p>
+                </li>
+                <li>
+                    <p>Edición de música</p>
+                </li>
+            </ul>
+        </aside>
+    </div>
+    <footer>
+        <div class="logos">
+            <a href="#nombre">
+                <!-- <img style="opacity: 0.5" border="0" border-radius="50%" src="../Ejercicio4/img/gif/git_circl.png" width="50" height="50"> -->
+            </a>
+            <div>
+                <p>&copy; 2025 Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
